@@ -13,7 +13,14 @@ The output is a processed video where lane lines and detected objects are overla
 
 ## 🎥 Demo
 
-![Autonomous Driving Demo](demo.gif)
+### Lane Detection + Object Detection (Highway)
+![Demo 1](demo.gif)
+
+### Urban Road Scenario
+![Demo 2](demo2.gif)
+
+### Multi-Lane Road Scenario
+![Demo 3](demo3.gif)
 
 ▶️ Full demo videos are available locally or via external links (not stored in GitHub due to size limits).
 
