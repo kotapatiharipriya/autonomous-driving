@@ -38,7 +38,65 @@ The output is a processed video where lane lines and detected objects are overla
 - Automatically processes all `.mp4` files placed in the `videos/` folder
 - Saves results to the `outputs/` folder
 
+## 📁 Project Structure
+
+autonomous-driving/
+│
+├── lane_and_objects.py # Main script
+├── videos/ # Input road videos (local only)
+├── outputs/ # Processed videos (generated locally)
+├── demo.gif # Short demo shown in README
+├── README.md
+└── .gitignore
+
+yaml
+Copy code
+
+> Note: Large video files are excluded from GitHub and should be kept locally.
+
 ---
 
-## 📁 Project Structure
+## ⚙️ Installation
+
+Install dependencies:
+
+```bash
+pip install ultralytics opencv-python numpy
+YOLOv8 weights will download automatically on first run.
+
+▶️ How to Run
+Place your road videos (.mp4) in the videos/ folder
+
+Run the script:
+
+bash
+Copy code
+python lane_and_objects.py
+Processed videos will be saved to the outputs/ folder
+
+Press Q to stop playback
+
+🧠 What I Learned
+Classical computer vision techniques for lane detection
+
+Integrating deep learning models with OpenCV pipelines
+
+Temporal smoothing for stable video predictions
+
+Real-time video frame processing
+
+End-to-end ML system structuring
+
+🚀 Future Improvements
+Object tracking (DeepSORT)
+
+Lane curvature estimation
+
+Steering angle prediction
+
+Semantic road segmentation (deep learning)
+
+👩‍💻 Author
+Haripriya Kotapati
+GitHub: https://github.com/kotapatiharipriya
 
